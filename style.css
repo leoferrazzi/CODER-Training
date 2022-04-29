@@ -64,6 +64,16 @@ h3 {
     height: 100%;
     
 }
+.img-thumbnail {
+    transition: transform .2s;
+}
+    
+.img-thumbnail:hover{
+    transform: scale(1.5);
+
+}
+
+  
 @media screen and (max-width: 575px) {
     .frase-mobile {
         visibility: visible;
