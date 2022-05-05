@@ -1,0 +1,92 @@
+.img-thumbnail {
+  transition: transform .2s; }
+
+.img-thumbnail:hover {
+  transform: scale(1.5); }
+
+.foto-disenador {
+  height: 100%; }
+
+.nombre-evento {
+  font-family: "Belleza", sans-serif; }
+
+.fecha {
+  font-family: "Belleza", sans-serif; }
+
+.evento-principal {
+  font-family: "Belleza", sans-serif; }
+
+/* FONDO   */
+* {
+  margin: 0;
+  padding: 0; }
+
+.cuerpo-home {
+  background-color: #f7f7df; }
+
+.navegador {
+  background: #e0bed9;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px; }
+
+.navbar-nav a:hover {
+  background-color: #cc9bc3; }
+
+.navbar-nav {
+  width: 100%; }
+
+/*BACKGROUND*/
+.vestido-color2 {
+  background-image: url(../Imagenes/vestido-color2.jpg);
+  height: 100vh; }
+
+.vestido-eco2 {
+  background-image: url(../Imagenes/vestido-eco2.jpg);
+  height: 100vh; }
+
+/*FRASE*/
+h2 {
+  padding: 10%;
+  font-family: "Belleza", sans-serif; }
+
+h3 {
+  padding-top: 30%;
+  font-family: "Belleza", sans-serif; }
+
+.frase-mobile {
+  visibility: hidden; }
+
+.wear {
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-in; }
+
+.your {
+  animation: fadeIn;
+  animation-duration: 4s;
+  animation-timing-function: ease-in; }
+
+.dream {
+  animation: fadeIn;
+  animation-duration: 6s;
+  animation-timing-function: ease-in; }
+
+.spring {
+  animation: fadeIn;
+  animation-duration: 8s;
+  animation-timing-function: ease-in; }
+
+@media screen and (max-width: 575px) {
+  .frase-mobile {
+    visibility: visible; }
+  .frase-desktop {
+    display: none;
+    height: 0px; }
+  .vestido-color2 {
+    display: none;
+    height: 0px; }
+  .frase-desktop-block {
+    height: 0px; }
+  .formulario {
+    padding-left: 7%;
+    padding-right: 7%; } }
