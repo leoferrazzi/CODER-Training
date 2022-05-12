@@ -16,9 +16,8 @@
     
 }
 .navegador {
-    background: rgb(224, 190, 217);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 18px;
+    @include navegador-fuente-fondo ($backgroud-navegador, $fuente-navegador, $tamanio-fuente-navegador);
+    
 }
 .navbar-nav a:hover{
           background-color: rgb(204, 155, 195) ; 
@@ -56,29 +55,28 @@ h3 {
 
 
 .wear {
-
-    animation: fadeIn;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;   
+    @extend %tipo-animacion;
+    animation-duration: map-get($animacion-delay , delay1 );
+     
 }
 .your {
 
-    animation: fadeIn;
-    animation-duration: 4s;
-    animation-timing-function: ease-in; 
+    @extend %tipo-animacion;
+    animation-duration: map-get($animacion-delay , delay2 );
+    
    
 }
 .dream {
 
-    animation: fadeIn;
-    animation-duration: 6s;
-    animation-timing-function: ease-in; 
+    @extend %tipo-animacion;
+    animation-duration: map-get($animacion-delay , delay3 );
+   
 }
 .spring {
 
-    animation: fadeIn;
-    animation-duration: 8s;
-    animation-timing-function: ease-in; 
+    @extend %tipo-animacion;
+    animation-duration: map-get($animacion-delay , delay4 );
+    
 }
 
 

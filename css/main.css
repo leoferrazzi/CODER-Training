@@ -1,3 +1,7 @@
+.wear, .your, .dream, .spring {
+  animation: fadeIn;
+  animation-timing-function: ease-in; }
+
 .img-thumbnail {
   transition: transform .2s; }
 
@@ -26,7 +30,7 @@
 
 .navegador {
   background: #e0bed9;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 18px; }
 
 .navbar-nav a:hover {
@@ -57,24 +61,16 @@ h3 {
   visibility: hidden; }
 
 .wear {
-  animation: fadeIn;
-  animation-duration: 2s;
-  animation-timing-function: ease-in; }
+  animation-duration: 2s; }
 
 .your {
-  animation: fadeIn;
-  animation-duration: 4s;
-  animation-timing-function: ease-in; }
+  animation-duration: 4s; }
 
 .dream {
-  animation: fadeIn;
-  animation-duration: 6s;
-  animation-timing-function: ease-in; }
+  animation-duration: 6s; }
 
 .spring {
-  animation: fadeIn;
-  animation-duration: 8s;
-  animation-timing-function: ease-in; }
+  animation-duration: 8s; }
 
 @media screen and (max-width: 575px) {
   .frase-mobile {

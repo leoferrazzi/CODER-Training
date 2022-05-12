@@ -1,1 +1,24 @@
-$fuentes: 'Belleza', sans-serif
+$fuentes: 'Belleza', sans-serif;
+$fuente-navegador: 'Bebas Neue', cursive;
+$backgroud-navegador: rgb(224, 190, 217);
+$tamanio-fuente-navegador: 18px;
+
+$animacion-delay: (
+    delay1: 2s,
+    delay2: 4s,
+    delay3: 6s,
+    delay4: 8s,
+);
+
+%tipo-animacion{
+    animation: fadeIn;
+    animation-timing-function: ease-in; 
+
+};
+
+@mixin navegador-fuente-fondo ($bg-color, $font-navegador, $tamanio-fuente) {
+    background: $bg-color;
+    font-family: $font-navegador;
+    font-size: $tamanio-fuente;
+    
+}
